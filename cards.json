@@ -1,0 +1,219 @@
+[
+    {
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house1.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa1.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment1.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+	{
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house2.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa2.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment2.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+	{
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house1.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa3.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment3.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+	{
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house3.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa4.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment4.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+	{
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house1.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa1.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment1.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+	{
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house2.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa1.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment4.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+	{
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house1.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa1.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment1.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+	{
+        "type": "house",
+        "title": "Roselands House",
+        "price": "$35,000,000",
+        "image": "./images/house1.png",
+        "author": "Dianne Russell",
+        "location": "Manchester, Kentucky",
+        "badge": "Popular"
+    },
+    {
+        "type": "villa",
+        "title": "Sunset Villa",
+        "price": "$50,000,000",
+        "image": "./images/villa1.png",
+        "author": "Robert Fox",
+        "location": "Dr. San Jose, South Dakota",
+        "badge": "New Villa"
+    },
+    {
+        "type": "apartment",
+        "title": "City View Apartment",
+        "price": "$25,000,000",
+        "image": "./images/apartment1.png",
+        "author": "Ronald Richards",
+        "location": "Santa Ana, Illinois",
+        "badge": "Best Deals"
+    }
+    
+]

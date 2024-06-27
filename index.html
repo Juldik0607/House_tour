@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+    <div class="main-container">
+        <header class="header">
+            <div class="logo">
+                <div class="logo-box yellow"></div>
+                <div class="logo-box green"></div>
+                <span>Hounter</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#user-reviews">About Us</a></li>
+                    <li><a href="#articles">Article</a></li>
+                    <li><a href="#recommendation">Property</a></li>
+                    <li><a href="#" id="sign-up-btn">Sign Up!</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="hero">
+                <div class="hero-text">
+                    <h1>Find The Place To Live Your Dreams Easily Here</h1>
+                    <p>Everything you need about finding your place to live will be here, where it will be easier for you</p>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search for the location you want!">
+                        <button>Search</button>
+                    </div>
+                    <div class="partnership">
+                        <p>Our Partnership</p>
+                        <div class="partners">
+                            <a href="https://www.traveloka.com/" target="_blank">
+                                <img src="./images/logo1.png" alt="Traveloka">
+                            </a>
+                            <a href="https://www.tiket.com/" target="_blank">
+                                <img src="./images/logo2.png" alt="Tiket.com">
+                            </a>
+                            <a href="https://www.airbnb.com/" target="_blank">
+                                <img src="./images/logo3.png" alt="Airbnb">
+                            </a>
+                            <a href="https://www.tripadvisor.com/" target="_blank">
+                                <img src="./images/logo4.png" alt="Tripadvisor">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./images/main_hous.png" alt="House">
+                    <div class="hero-stats">
+                        <div class="stat">
+                            
+                            <div class="stat-text">
+                                <span>1K+ People</span>
+                                <p>Successfully Getting Home</p>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            
+                            <div class="stat-text">
+                                <span>56 Houses</span>
+                                <p>Sold Monthly</p>
+                            </div>
+                        </div>
+                        <div class="stat">
+                            
+                            <div class="stat-text">
+                                <span>4K+ Reviews</span>
+                                <p>With Happy Clients</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recommendation" class="featured">
+                <div class="container">
+                    <p>Our Recommendation</p>
+                    <h2>Featured Properties</h2>
+                    <div class="filter-buttons">
+                        <button class="active" onclick="filterCards('house')">House</button>
+                        <button onclick="filterCards('villa')">Villa</button>
+                        <button onclick="filterCards('apartment')">Apartment</button>
+                    </div>
+                    <div id="cards-container" class="house-list">
+                        <!-- Cards will be rendered here -->
+                    </div>
+                    <div class="pagination">
+                        <button onclick="prevPage()">Prev</button>
+                        <span id="page-indicator"></span>
+                        <button onclick="nextPage()">Next</button>
+                    </div>
+                </div>
+            </section>
+
+            <section class="tour-house">
+                <div class="container">
+                    <div class="tour-text">
+                        <p class="tour-label">Ready To Sell!</p>
+                        <h2>Let's Tour And See Our House!</h2>
+                        <p>Houses recommended by our partners that have been curated to become the home of your dreams!</p>
+                        <h3>House Detail</h3>
+                        <div class="house-details">
+                            <div class="detail-item">
+                                <img src="./images/bedroom_icon.png" alt="Bedrooms Icon">
+                                <p>4 Bedrooms</p>
+                            </div>
+                            <div class="detail-item">
+                                <img src="./images/bathroom_icon.png" alt="Bathrooms Icon">
+                                <p>2 Bathrooms</p>
+                            </div>
+                            <div class="detail-item">
+                                <img src="./images/carport_icon.png" alt="Carport Icon">
+                                <p>1 Carport</p>
+                            </div>
+                            <div class="detail-item">
+                                <img src="./images/floor_icon.png" alt="Floors Icon">
+                                <p>2 Floors</p>
+                            </div>
+                        </div>
+                        <div class="agent-info">
+                            <img src="./images/Diane.png" alt="Dianne Russell">
+                            <div>
+                                <p class="agent-name">Dianne Russell</p>
+                                <p class="agent-title">Manager Director</p>
+                            </div>
+                            <button class="contact-button">Contact Now</button>
+                        </div>
+                    </div>
+                    <div class="tour-images">
+                        <img class="main-image" src="./images/house_main.png" alt="House Main">
+                        <iframe 
+                            class="video-frame" 
+                            src="https://www.youtube.com/embed/3z-2N8b7NrU" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen 
+                            title="YouTube video: How to embed a video"
+                        ></iframe>
+                        <img class="sofa-image" src="./images/sofa.png" alt="Sofa">
+                        <div class="small-images">
+                            <img src="./images/small1.png" alt="Small Image 1">
+                            <img src="./images/small2.png" alt="Small Image 2">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="user-reviews" class="user-reviews">
+                <div class="container">
+                    <div class="reviews-header">
+                        <p>See Our Review</p>
+                        <h2>What Our User Say About Us</h2>
+                    </div>
+                    <div id="reviews-container" class="reviews">
+                        <!-- Reviews will be rendered here -->
+                    </div>
+                </div>
+            </section>
+
+           
+            <!-- Articles Section -->
+<section id="articles" class="articles">
+    <div class="container">
+        <div class="section-header">
+            <p>See Tips And Trick From Our Partnership</p>
+            <h2>Find Out More About Selling And Buying Homes</h2>
+            <button>More Artikel</button>
+        </div>
+        <div class="grid">
+            <div class="grid-left">
+                <article class="card" data-index="0">
+                    <div class="card-image">
+                        <img src="./images/Diane_hous.png" alt="Dianne Russell's Featured House">
+                    </div>
+                    <div class="card-content">
+                        <div class="article-meta">
+                            <img src="./images/Diane.png" alt="Author Image">
+                            <div>
+                                <h3>Dianne Russell</h3>
+                                <p class="article-title">The Things We Need To Check When We Want To Buy A House</p>
+                            </div>
+                        </div>
+                        <div class="read-time">
+                            <img src="./images/Uhr.png" alt="Clock Icon">
+                            <p>4 min read | 25 Apr 2021</p>
+                        </div>
+                        <p class="description">Considering buying your first home? In this article, I will guide you through the essential steps you need to take to ensure you make a well-informed decision and avoid common pitfalls.</p>  
+                    </div>
+                </article>
+                <article class="card" data-index="1">
+                    <div class="card-image">
+                        <img src="./images/Cort.png" alt="Courtney Henry's Featured House">
+                    </div>
+                    <div class="card-content">
+                        <div class="article-meta">
+                            <img src="./images/Court.png" alt="Author Image">
+                            <div>
+                                <h3>Courtney Henry</h3>
+                                <p class="article-title">7 Ways To Distinguish The Quality Of The House We Want To Buy</p>
+                            </div>
+                        </div>
+                        <div class="read-time">
+                            <img src="./images/Uhr.png" alt="Clock Icon">
+                            <p>6 min read | 24 Apr 2021</p>
+                        </div>
+                        <p class="description">Navigating the real estate market can be complex. Here, I will explain the key factors you should consider when evaluating properties to help you make a sound investment.</p>
+                    </div>
+                </article>
+                <article class="card" data-index="2">
+                    <div class="card-image">
+                        <img src="./images/Dariel.png" alt="Darlene Robertson's Featured House">
+                    </div>
+                    <div class="card-content">
+                        <div class="article-meta">
+                            <img src="./images/Darlene.png" alt="Author Image">
+                            <div>
+                                <h3>Darlene Robertson</h3>
+                                <p class="article-title">The Best Way To Know The Quality Of The House We Want To Buy</p>
+                            </div>
+                        </div>
+                        <div class="read-time">
+                            <img src="./images/Uhr.png" alt="Clock Icon">
+                            <p>2 min read | 24 Apr 2021</p>
+                        </div>
+                        <p class="description">Going on a house tour but unsure what to focus on? I will share expert tips on what you should pay attention to, helping you identify the perfect home that meets your needs and expectations.</p>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="grid-right">
+                <article class="card" data-index="3">
+                    <div class="card-image">
+                        <img src="./images/Cameron_house.png" alt="Cameron Williamson's Featured House">
+                    </div>
+                    <div class="card-content">
+                        <div class="article-meta">
+                            <img src="./images/Cameron.png" alt="Author Image">
+                            <div>
+                                <h3>Cameron Williamson</h3>
+                                <h3 class="article-title">12 Things To Know Before Buying A House</h3>
+                            </div>
+                        </div>
+                        <div class="read-time">
+                            <img src="./images/Uhr.png" alt="Clock Icon">
+                            <p>8 min read | 25 Apr 2021</p>
+                        </div>
+                        <p class="description">Want to buy a house but are unsure about what we should know, here I will try to explain what we should know and check when we want to buy a house</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+            <section class="subscribe-section">
+                <div class="left-avatars avatars-grid">
+                    <img src="./images/subscribe_img1.png" alt="Avatar 9" class="avatar avatar-1">
+                    <img src="./images/subscribe_img2.png" alt="Avatar 6" class="avatar avatar-2">
+                    <img src="./images/subscribe_img3.png" alt="Image 1" class="image image-1">
+                    <img src="./images/subscribe_img4.png" alt="Image 2" class="image image-2">
+                </div>
+                <div class="subscribe-content">
+                    <h2>Subscribe For More Info And Update From Hounter</h2>
+                    <div class="search">
+                        <span class="icon">📧</span>
+                        <input type="email" placeholder="Your email here" class="email-input">
+                        <button class="subscribe-btn">Subscribe Now</button>
+                    </div>
+                </div>
+                <div class="right-avatars avatars-grid">
+                    <img src="./images/subscribe_img5.png" alt="Avatar 1" class="avatar avatar-3">
+                    <img src="./images/subscribe_img6.png" alt="Avatar 2" class="avatar avatar-4">
+                    <img src="./images/subscribe_img7.png" alt="Image 3" class="image image-3">
+                    <img src="./images/subscribe_img8.png" alt="Image 4" class="image image-4">
+                </div>
+            </section>
+        
+        </main>
+
+
+        
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="logo">
+                    <div class="logo-box yellow"></div>
+                    <div class="logo-box green"></div>
+                    <span>Hounter</span>
+                    <p>We provide information about properties such as houses, villas, and apartments to help people find their dream home.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="property">
+                        <h3>Property</h3>
+                        <ul>
+                            <li><a href="#recommendation">House</a></li>
+                            <li><a href="#recommendation">Apartment</a></li>
+                            <li><a href="#recommendation">Villa</a></li>
+                        </ul>
+                    </div>
+                    <div class="article">
+                        <h3>Article</h3>
+                        <ul>
+                            <li><a href="#">New Article</a></li>
+                            <li><a href="#">Popular Article</a></li>
+                            <li><a href="#articles">Most Read</a></li>
+                            <li><a href="#">Tips & Tricks</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <h3>Contact</h3>
+                        <p>2464 Royal Ln. Mesa, New Jersey 45463</p>
+                        <p>(671) 555-0110</p>
+                        <p>info@hounter.com</p>
+                    </div>
+                    <div class="social-media">
+                        <h3>Follow Us</h3>
+                        <div class="social-icons">
+                            <a href="#"><img src="./images/facebook.png" alt="Facebook"></a>
+                            <a href="#"><img src="./images/twitter.png" alt="Twitter"></a>
+                            <a href="#"><img src="./images/instagram.png" alt="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Modal -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <form id="registration-form">
+                    <h2>Sign Up</h2>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <label for="confirm-password">Confirm Password:</label>
+                    <input type="password" id="confirm-password" name="confirm-password" required>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
