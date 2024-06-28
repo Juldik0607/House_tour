@@ -5,7 +5,7 @@ const cardsData = [
         "price": "$35,000,000",
         "image": "./images/house1.png",
         "author": "Dianne Russell",
-        "avatar": "./images/diane.png",
+        "avatar": "./images/Diane.png",
         "location": "Manchester, Kentucky",
         "badge": "Popular"
     },
@@ -35,7 +35,7 @@ const cardsData = [
         "price": "$35,000,000",
         "image": "./images/house2.png",
         "author": "Dianne Russell",
-        "avatar": "./images/diane.png",
+        "avatar": "./images/Diane.png",
         "location": "Manchester, Kentucky",
         "badge": "Popular"
     },
@@ -95,7 +95,7 @@ const cardsData = [
         "price": "$35,000,000",
         "image": "./images/house3.png",
         "author": "Dianne Russell",
-        "avatar": "./images/diane.png",
+        "avatar": "./images/Diane.png",
         "location": "Manchester, Kentucky",
         "badge": "Popular"
     },
@@ -125,7 +125,7 @@ const cardsData = [
         "price": "$35,000,000",
         "image": "./images/house1.png",
         "author": "Dianne Russell",
-        "avatar": "./images/diane.png",
+        "avatar": "./images/Diane.png",
         "location": "Manchester, Kentucky",
         "badge": "Popular"
     },
@@ -185,7 +185,7 @@ const cardsData = [
         "price": "$35,000,000",
         "image": "./images/house1.png",
         "author": "Dianne Russell",
-        "avatar": "./images/diane.png",
+        "avatar": "./images/Diane.png",
         "location": "Manchester, Kentucky",
         "badge": "Popular"
     },
@@ -215,7 +215,7 @@ const cardsData = [
         "price": "$35,000,000",
         "image": "./images/house1.png",
         "author": "Dianne Russell",
-        "avatar": "./images/diane.png",
+        "avatar": "./images/Diane.png",
         "location": "Manchester, Kentucky",
         "badge": "Popular"
     },
