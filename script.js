@@ -544,3 +544,69 @@ function startReviewCarousel() {
     renderReviews();
     setInterval(renderReviews, 5000);
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const modal = document.getElementById("modal");
+    const btn = document.getElementById("sign-up-btn");
+    const span = document.getElementsByClassName("close")[0];
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+
+    span.onclick = function() {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+    }
+
+    document.getElementById("registration-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+        const name = document.getElementById("name").value.trim();
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value;
+        const confirmPassword = document.getElementById("confirm-password").value;
+
+        if (name === "") {
+            alert("Name cannot be empty.");
+            return;
+        }
+
+        if (password.length < 6) {
+            alert("Password must be at least 6 characters long.");
+            return;
+        }
+
+        const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[~!?@#$%^&*_\-+(){}\[\]<>/\\|"'.,:]).{6,}$/;
+        if (!passwordRegex.test(password)) {
+            alert("Password must contain at least one uppercase letter, one lowercase letter, one digit, and one special character.");
+            return;
+        }
+
+        if (password !== confirmPassword) {
+            alert("Passwords do not match!");
+            return;
+        }
+
+        const users = JSON.parse(localStorage.getItem("users")) || [];
+
+        const userExists = users.some(user => user.email === email);
+        if (userExists) {
+            alert("Email is already registered!");
+            return;
+        }
+
+        users.push({ name: name, email: email, password: password });
+
+        localStorage.setItem("users", JSON.stringify(users));
+
+        alert("Registration successful!");
+        modal.style.display = "none";
+
+        document.getElementById("registration-form").reset();
+    });
+});
